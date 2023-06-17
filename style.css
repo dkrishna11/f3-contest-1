@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 10px;
+  }
+  input{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 8px;
+    padding: 10px;
+    width: 250px;
+  }
+.empInp{
+    display: flex;
+    gap: 20px;
+}
+
+h2{
+    margin-top: 35px;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+.employee-details{
+    /* border: 1px solid #FFFFFF; */
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap:30px;
+}
+
+.employee-details p{
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    width: calc(70%);
+    border-radius: 8px;
+}
+
+.employee-details button{
+    height: 40px;
+    width: 130px;
+    border-radius: 25px;
+}
+
+.employee-details p >span{
+   margin: 5px;
+   padding: 14px;
+}
